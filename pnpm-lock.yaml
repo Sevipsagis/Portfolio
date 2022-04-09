@@ -16,6 +16,7 @@ specifiers:
   eslint-plugin-react-hooks: ^4.4.0
   postcss: ^8.4.12
   preact: ^10.5.15
+  preact-async-route: ^2.2.1
   preact-router: ^4.0.1
   prettier: ^2.6.2
   tailwindcss: ^3.0.23
@@ -40,6 +41,7 @@ devDependencies:
   eslint-plugin-react: 7.29.4_eslint@8.13.0
   eslint-plugin-react-hooks: 4.4.0_eslint@8.13.0
   postcss: 8.4.12
+  preact-async-route: 2.2.1
   prettier: 2.6.2
   tailwindcss: 3.0.23_autoprefixer@10.4.4
   vite: 2.9.1
@@ -2087,6 +2089,10 @@ packages:
       nanoid: 3.3.2
       picocolors: 1.0.0
       source-map-js: 1.0.2
+    dev: true
+
+  /preact-async-route/2.2.1:
+    resolution: {integrity: sha512-8bg1007akXs3YDmzYT4McaTe6ji2FIzcc0/NTlu+vjJaKPNQ8lNG/HQ6LP+FoIxQ4m/KH5vvJCHJN5ADp2iNGA==}
     dev: true
 
   /preact-router/4.0.1_preact@10.7.1:
