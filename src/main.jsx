@@ -1,3 +1,6 @@
+if (process.env.NODE_ENV !== 'prod') {
+    import('preact/debug')
+}
 import { render } from 'preact'
 import App from './app'
 import './index.css'
