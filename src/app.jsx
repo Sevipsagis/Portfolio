@@ -1,11 +1,17 @@
-import Landing from './containers/landing'
-import About from './containers/about'
+import Router from 'preact-router'
+import AsyncRoute from 'preact-async-route'
 
 export default function App() {
     return (
-        <div class="w-full h-screen overflow-y-scroll snap-y snap-mandatory">
-            <Landing />
-            <About />
-        </div>
+        <Router>
+            <AsyncRoute
+                path="/"
+                getComponent={() => import('./containers/home').then((module) => module.default)}
+            />
+            <AsyncRoute
+                default
+                getComponent={() => import('./containers/404').then((module) => module.default)}
+            />
+        </Router>
     )
 }

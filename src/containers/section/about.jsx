@@ -1,4 +1,4 @@
-import profilePicture from '../assets/images/profile.png'
+import profilePicture from '../../assets/images/profile_md.png'
 
 export default function About() {
     return (
@@ -35,6 +35,7 @@ export default function About() {
                     <div class="w-full flex flex-wrap">
                         <button
                             class="btn btn-circle hover:text-accent-focus text-xl mr-4"
+                            aria-label="Facebook"
                             onClick={() =>
                                 (window.location.href = 'https://www.facebook.com/nattapon.benz.np')
                             }
@@ -43,6 +44,7 @@ export default function About() {
                         </button>
                         <button
                             class="btn btn-circle hover:text-accent-focus text-xl mr-4"
+                            aria-label="LinkedIn"
                             onClick={() =>
                                 (window.location.href = 'https://www.linkedin.com/in/npbenz')
                             }
@@ -51,6 +53,7 @@ export default function About() {
                         </button>
                         <button
                             class="btn btn-circle hover:text-accent-focus text-xl mr-4"
+                            aria-label="Github"
                             onClick={() =>
                                 (window.location.href = 'https://www.github.com/Sevipsagis')
                             }
@@ -59,6 +62,7 @@ export default function About() {
                         </button>
                         <button
                             class="btn btn-circle hover:text-accent-focus text-xl mr-4"
+                            aria-label="Send Email"
                             onClick={() => (window.location.href = 'mailto: sevipsagis@gmail.com')}
                         >
                             <i class="ri-mail-line" alt="mail-logo"></i>
