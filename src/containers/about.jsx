@@ -36,20 +36,24 @@ export default function About() {
                         <button
                             class="btn btn-circle hover:text-accent-focus text-xl mr-4"
                             onClick={() =>
-                                (window.location.href = 'www.facebook.com/nattapon.benz.np')
+                                (window.location.href = 'https://www.facebook.com/nattapon.benz.np')
                             }
                         >
                             <i class="ri-facebook-circle-fill" alt="facebook-logo"></i>
                         </button>
                         <button
                             class="btn btn-circle hover:text-accent-focus text-xl mr-4"
-                            onClick={() => (window.location.href = 'www.linkedin.com/in/npbenz')}
+                            onClick={() =>
+                                (window.location.href = 'https://www.linkedin.com/in/npbenz')
+                            }
                         >
                             <i class="ri-linkedin-box-fill" alt="linkedin-logo"></i>
                         </button>
                         <button
                             class="btn btn-circle hover:text-accent-focus text-xl mr-4"
-                            onClick={() => (window.location.href = 'www.github.com/Sevipsagis')}
+                            onClick={() =>
+                                (window.location.href = 'https://www.github.com/Sevipsagis')
+                            }
                         >
                             <i class="ri-github-fill" alt="github-logo"></i>
                         </button>
