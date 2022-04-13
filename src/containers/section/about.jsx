@@ -4,7 +4,7 @@ export default function About() {
     return (
         <section className="min-w-10/10 max-w-10/10 min-h-10/10 max-h-10/10 flex flex-wrap justify-center items-center snap-start">
             <div class="w-full min-h-10/10 max-h-10/10 bg-base-300 p-8 md:p-12 lg:p-16 flex flex-col justify-center lg:flex-row lg:items-center lg:justify-start overflow-hidden">
-                <div class="relative w-10/12 h-fit ml-auto mr-auto lg:w-6/12">
+                <div class="relative flex flex-wrap justify-center items-center w-10/12 lg:w-6/12">
                     <img
                         src={profilePicture}
                         alt="Nuttapol_Phomthon_Profile_Picture"
@@ -13,10 +13,8 @@ export default function About() {
                         class="w-11/12 md:w-10/12 lg:w-12/12 h-auto mr-auto ml-auto"
                     />
                     <h1
-                        class="absolute uppercase font-medium text-accent-focus leading-tight text-2xl md:text-5xl motion-safe:animate-pulse"
+                        class="absolute uppercase font-semibold text-accent-focus leading-tight text-xl md:text-4xl 2xl:text-8xl mt-6 md:mt-12 2xl:mt-24 drop-shadow-xl"
                         style={{
-                            top: '15%',
-                            left: '10%',
                             transform: 'rotate(-10deg)',
                         }}
                     >
