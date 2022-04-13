@@ -13,13 +13,13 @@ export default function Landing() {
                     </h1>
                     <hr class="border-t-4 border-base-content my-4 motion-safe:animate-pulse" />
                     <p class="text-secondary text-xl md:text-2xl font-light leading-tight">
-                        {'< Software Developer />'}
+                        {'< Software Engineer />'}
                     </p>
                     <p class="text-secondary text-xl md:text-2xl font-light leading-tight">
                         {'< Technology Geek />'}
                     </p>
                     <p class="text-secondary text-xl md:text-2xl font-light leading-tight">
-                        {'< Movie Lovers />'}
+                        {'< Casual Gamer />'}
                     </p>
                 </div>
             </div>

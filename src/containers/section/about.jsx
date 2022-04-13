@@ -1,4 +1,4 @@
-import profilePicture from '../../assets/images/profile_md.webp'
+import profilePicture from '../../assets/images/profile_sm.webp'
 
 export default function About() {
     return (
@@ -15,8 +15,8 @@ export default function About() {
                     <h1
                         class="absolute uppercase font-medium text-accent-focus leading-tight text-2xl md:text-5xl motion-safe:animate-pulse"
                         style={{
-                            top: '10%',
-                            left: '7%',
+                            top: '15%',
+                            left: '10%',
                             transform: 'rotate(-10deg)',
                         }}
                     >
