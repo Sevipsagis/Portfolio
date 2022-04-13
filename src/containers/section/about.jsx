@@ -1,4 +1,4 @@
-import profilePicture from '../../assets/images/profile_md.png'
+import profilePicture from '../../assets/images/profile_md.webp'
 
 export default function About() {
     return (
@@ -8,7 +8,9 @@ export default function About() {
                     <img
                         src={profilePicture}
                         alt="Nuttapol_Phomthon_Profile_Picture"
-                        class="w-11/12 md:w-10/12 lg:w-12/12 mr-auto ml-auto"
+                        width="480"
+                        height="480"
+                        class="w-11/12 md:w-10/12 lg:w-12/12 h-auto mr-auto ml-auto"
                     />
                     <h1
                         class="absolute uppercase font-medium text-accent-focus leading-tight text-2xl md:text-5xl motion-safe:animate-pulse"
@@ -21,11 +23,11 @@ export default function About() {
                         Hello, World!
                     </h1>
                 </div>
-                <div class="w-10/12 lg:w-6/12 ml-auto mr-auto">
+                <div class="w-10/12 lg:w-6/12 ml-auto mr-auto p-1 md:p-8">
                     <h1 class="uppercase text-accent-focus text-2xl md:text-5xl font-medium leading-tight md:mb-1">
                         Nuttapol Phomthon
                     </h1>
-                    <h3 class="text-xl md:text-3xl font-base leading-tight mb-8">@sevipsagis</h3>
+                    <h2 class="text-xl md:text-3xl font-base leading-tight mb-8">@sevipsagis</h2>
                     <p class="text-lg md:text-2xl font-light leading-tight mb-8 indent-6">
                         Hi guys, You can call me <b class="text-accent-focus">Benz</b>. Actually,
                         I'm graduated in the field of Multimedia and Game Development but I fall in
@@ -34,7 +36,7 @@ export default function About() {
                     </p>
                     <div class="w-full flex flex-wrap">
                         <button
-                            class="btn btn-circle hover:text-accent-focus text-xl mr-4"
+                            class="btn btn-circle hover:text-accent-focus text-xl mr-2 md:mr-4"
                             aria-label="Facebook"
                             onClick={() =>
                                 (window.location.href = 'https://www.facebook.com/nattapon.benz.np')
@@ -43,7 +45,7 @@ export default function About() {
                             <i class="ri-facebook-circle-fill" alt="facebook-logo"></i>
                         </button>
                         <button
-                            class="btn btn-circle hover:text-accent-focus text-xl mr-4"
+                            class="btn btn-circle hover:text-accent-focus text-xl mr-2 md:mr-4"
                             aria-label="LinkedIn"
                             onClick={() =>
                                 (window.location.href = 'https://www.linkedin.com/in/npbenz')
@@ -52,7 +54,7 @@ export default function About() {
                             <i class="ri-linkedin-box-fill" alt="linkedin-logo"></i>
                         </button>
                         <button
-                            class="btn btn-circle hover:text-accent-focus text-xl mr-4"
+                            class="btn btn-circle hover:text-accent-focus text-xl mr-2 md:mr-4"
                             aria-label="Github"
                             onClick={() =>
                                 (window.location.href = 'https://www.github.com/Sevipsagis')
@@ -61,7 +63,7 @@ export default function About() {
                             <i class="ri-github-fill" alt="github-logo"></i>
                         </button>
                         <button
-                            class="btn btn-circle hover:text-accent-focus text-xl mr-4"
+                            class="btn btn-circle hover:text-accent-focus text-xl mr-2 md:mr-4"
                             aria-label="Send Email"
                             onClick={() => (window.location.href = 'mailto: sevipsagis@gmail.com')}
                         >

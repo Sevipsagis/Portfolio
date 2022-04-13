@@ -12,15 +12,15 @@ export default function Landing() {
                         Phomthon
                     </h1>
                     <hr class="border-t-4 border-base-content my-4 motion-safe:animate-pulse" />
-                    <h3 class="text-secondary text-xl md:text-2xl font-light leading-tight">
+                    <p class="text-secondary text-xl md:text-2xl font-light leading-tight">
                         {'< Software Developer />'}
-                    </h3>
-                    <h3 class="text-secondary text-xl md:text-2xl font-light leading-tight">
+                    </p>
+                    <p class="text-secondary text-xl md:text-2xl font-light leading-tight">
                         {'< Technology Geek />'}
-                    </h3>
-                    <h3 class="text-secondary text-xl md:text-2xl font-light leading-tight">
+                    </p>
+                    <p class="text-secondary text-xl md:text-2xl font-light leading-tight">
                         {'< Movie Lovers />'}
-                    </h3>
+                    </p>
                 </div>
             </div>
         </section>
