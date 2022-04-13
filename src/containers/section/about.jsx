@@ -31,7 +31,7 @@ export default function About() {
                     <p class="text-lg md:text-2xl font-light leading-tight mb-8 indent-6">
                         Hi guys, You can call me <b class="text-accent-focus">Benz</b>. Actually,
                         I'm graduated in the field of Multimedia and Game Development but I fall in
-                        love with web technologies so that is why I'm working as{' '}
+                        love with Web Technologies so that is why I'm working as{' '}
                         <b class="text-accent-focus">Software Engineer</b>.
                     </p>
                     <div class="w-full flex flex-wrap">
