@@ -13,7 +13,7 @@ export default function About() {
                         class="w-11/12 md:w-10/12 lg:w-12/12 h-auto mr-auto ml-auto"
                     />
                     <h1
-                        class="absolute uppercase italic font-semibold text-accent-focus bg-base-300 leading-tight text-xl md:text-4xl px-4 rounded-sm py-1 mt-8 md:mt-16 drop-shadow-xl"
+                        class="absolute uppercase font-semibold text-accent-focus bg-base-300 leading-tight text-xl md:text-4xl px-4 rounded-sm py-1 mt-8 md:mt-16 drop-shadow-xl"
                         style={{
                             transform: 'rotate(-10deg)',
                         }}
