@@ -6,6 +6,10 @@ export default function Home() {
         <div class="w-full h-screen overflow-y-scroll snap-y snap-mandatory">
             <Landing />
             <About />
+            {/* <Education />
+            <Experience />
+            <Skills />
+            <Projects /> */}
         </div>
     )
 }

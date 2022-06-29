@@ -6,6 +6,7 @@ export default function App() {
         <Router>
             <AsyncRoute
                 path="/"
+                exact
                 getComponent={() => import('./containers/home').then((module) => module.default)}
             />
             <AsyncRoute
