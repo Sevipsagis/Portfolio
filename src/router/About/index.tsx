@@ -1,13 +1,14 @@
-import { Container } from '@nextui-org/react'
+import { css, Container } from '@nextui-org/react'
 import { motion } from 'framer-motion'
 
 import LandingSection from './Landing'
+import TechnologySection from './Technology'
 
 function AboutPage() {
     return (
-        <motion.div>
+        <div>
             <LandingSection />
-        </motion.div>
+        </div>
     )
 }
 
