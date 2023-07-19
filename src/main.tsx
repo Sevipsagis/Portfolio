@@ -1,22 +1,13 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import { RouterProvider } from 'react-router-dom'
-import { createTheme, NextUIProvider } from '@nextui-org/react'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { ChakraProvider } from "@chakra-ui/react";
+import App from "./App.tsx";
+import "./index.css";
 
-import RouteConfig from './router/RouteConfig'
-import './index.css'
-
-const darkTheme = createTheme({
-    type: 'dark',
-    theme: {
-        colors: {},
-    },
-})
-
-ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
-    <React.StrictMode>
-        <NextUIProvider theme={darkTheme}>
-            <RouterProvider router={RouteConfig} />
-        </NextUIProvider>
-    </React.StrictMode>
-)
+ReactDOM.createRoot(document.getElementById("root")!).render(
+  <React.StrictMode>
+    <ChakraProvider>
+      <App />
+    </ChakraProvider>
+  </React.StrictMode>
+);
